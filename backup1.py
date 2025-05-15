@@ -273,7 +273,7 @@ class ExcelAnalyzerGUI:
         }
 
         try:
-            openai.api_key = "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"  # Replace with your actual API key
+            openai.api_key = ""  # Replace with your actual API key
             response = openai.ChatCompletion.create(
                 model="gpt-4",
                 messages=[system_prompt, user_prompt],
